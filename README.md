@@ -14,7 +14,7 @@ The script is composed of two main functions:
 ### Running the Script
 To run the script, simply execute the monty_hall.py file with Python. By default, the script runs the simulation with 1,000,000 trials and displays the resulting histogram. For example, to run the simulation with 1,000,000 trials, use the following command:
 ```
-python monty_hall.py 100000
+python main.py 100000
 ```
 The resulting histogram shows the distribution of win probabilities for each trial. The x-axis represents the win probability, and the y-axis represents the frequency of occurrence. The percentage of each bar is also shown below the bar. `The distribution should show that the probability of winning by switching doors is approximately 2/3, while the probability of winning by sticking with the initial choice is approximately 1/3.`
 
